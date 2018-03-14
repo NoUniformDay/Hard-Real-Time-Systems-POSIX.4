@@ -12,7 +12,7 @@ Hard Real Time Systems POSIX.4 University Assingment written in C.
   If you not clone. otherwise, skip that.
 
   ```sh
-  git clone https://github.com/your_user_name/Movie_Rental_Management_System.git
+  git clone https://github.com/your_user_name/Hard-Real-Time-Systems-POSIX.4.git
   ```
 
 3. Sync with remote repo in organization.
@@ -20,7 +20,7 @@ Hard Real Time Systems POSIX.4 University Assingment written in C.
   note: do this before you start to coding.
 
   ```sh
-  git pull https://github.com/DITTeamProject/Movie_Rental_Management_System.git master
+  git pull https://github.com/Hard-Real-Time-Systems-POSIX.4/Hard-Real-Time-Systems-POSIX.4.git master
   # Sync the remote repo in organization with local folder
 
   git push
