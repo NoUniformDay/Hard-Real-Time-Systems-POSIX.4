@@ -1,9 +1,8 @@
 #!/bin/bash
-RUNS=50
-mkdir csvout/q2a
-mkdir csvout/q2a/${RUNS}runs
-declare -i x=1
-
-while [ $x -lt $RUNS ]; do
-	 ./q2a 5 1000 > csvout/q2a/$RUNSruns/run${i}.csv & 
+RUNS=500
+mkdir csvout/CT422
+mkdir csvout/CT422/${RUNS}runs
+for (( i = 1; i <= $RUNS; i++ ))
+do
+./timer_usleep 5 1000 > csvout/CT422/${RUNS}runs/run${i}.csv &
 done
